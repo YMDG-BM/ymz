@@ -11,7 +11,8 @@
 
 
 ### 工作室室长随便做的小程序源代码
-'''python
+
+```python
 # This Python file uses the following encoding:utf-8
 
 def main():
@@ -58,7 +59,7 @@ def main():
 			divid()
 		else:
 			print 'Error!'
-
+	
 if __name__ == '__main__':
 	main()
-'''
+```

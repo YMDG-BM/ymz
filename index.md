@@ -2,7 +2,7 @@
 ## 开发中
 
 <a href="ymdg-bm.github.io/ymz/video">
-  <button type="button" class="btn"  style="background-color: #87CEFA; width: 250px;height: 50px;color: #FFFFFF">分页</button>
+  <button type="button" class="btn"  style="background-color: #87CEFA; width: 75px;height: 50px;color: #FFFFFF">分页</button>
 </a>
 
 

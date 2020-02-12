@@ -10,7 +10,7 @@
 ![bilibili](https://dss1.baidu.com/6ONXsjip0QIZ8tyhnq/it/u=2810627290,1080409091&fm=58&s=8197C732C535FA313E526557030030BB&bpow=121&bpoh=75)  
 
 <a href="https://space.bilibili.com/296484714">
-  <button type="button" class="btn"  style="background-color: #87CEFA;color: #FFFFFF">哔哩哔哩账号</button>
+  <button type="button" class="btn"  style="background-color: #87CEFA; width: 250px;height: 50px;color: #FFFFFF">哔哩哔哩账号</button>
 </a>
 
 

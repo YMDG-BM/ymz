@@ -3,9 +3,10 @@
 
 <a href="news">
   <button type="button" class="btn"  style="background-color: #87CEFA; width: 100px;height: 50px;color: #FFFFFF">分页</button>
+</a>
+<a href="https://ymdg-bm.github.io">
   <button type="button" class="btn"  style="background-color: #87CEFA; width: 150px;height: 50px;color: #FFFFFF">夜猫博客</button>
 </a>
-
 
 ![QQ](https://dss2.bdstatic.com/6Ot1bjeh1BF3odCf/it/u=3180122972,1397905770&fm=74&app=80&f=JPEG&size=f121,90?sec=1880279984&t=12ba7cd68ccaf881722e7582ecce5003)
 

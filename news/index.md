@@ -1,14 +1,12 @@
-# 夜猫子博客——分页
+# 鸡黍的博客——分页
 ### 开发中
 
 <a href="..">
   <button type="button" class="btn"  style="background-color: #87CEFA; width: 75px;height: 50px;color: #FFFFFF">总页</button>
 </a>
 
-<iframe src="//player.bilibili.com/player.html?aid=582564956&bvid=BV1T64y1u7qy&cid=169467145&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
 <details>
-	<summary>工作室室长随便做的小程序源代码 展开查看</summary>
+	<summary>鸡黍随便做的小程序源代码 展开查看</summary>
 	<pre><code>
 	# This Python file uses the following encoding:utf-8
 	def main():

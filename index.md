@@ -4,7 +4,7 @@
 <a href="news">
   <button type="button" class="btn"  style="background-color: #87CEFA; width: 100px;height: 50px;color: #FFFFFF">分页</button>
 </a>
-<a href="https://ymdg-bm.github.io">
+<a href="https://nac257.github.io">
   <button type="button" class="btn"  style="background-color: #87CEFA; width: 150px;height: 50px;color: #FFFFFF">夜猫博客</button>
 </a>
 

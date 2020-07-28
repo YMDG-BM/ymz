@@ -287,17 +287,52 @@ iframe.bilibili{
   top:40px;
   left:60px;
 }
+.vibr{
+	position:relative;
+	top:15px;
+	left:0;
+	width:200px;
+	height:50px;
+	border-radius: 0px;
+	background: rgb(255, 255, 255);
+ 	position:relative;
+ 	left:50px;
+ 	top:100px;
+ 	outline: none;
+	border: none;
+	transition:border-radius 0.2s, background 0.2s;
+	}
+.vibr:hover {
+  width:200px;
+  height:50px;
+  border-radius: 15px;
+  background-color:rgb(222, 222, 222);
+}
+.vibr:active {
+  width:200px;
+  height:50px;
+  border-radius: 29px;
+  background-color:rgb(200, 200, 200);
+}
 </style>
 </head>
 <body>
 	<script>
-		var vibrateInterval;
-	function startVibrate() {
-	if (navigator.vibrate) {
-    navigator.vibrate(100);
-} else if (navigator.webkitVibrate) {
-    navigator.webkitVibrate(100);
-}
+   function vibration(){
+       navigator.vibrate = navigator.vibrate
+               || navigator.webkitVibrate
+               || navigator.mozVibrate
+               || navigator.msVibrate;
+
+       if (navigator.vibrate) {
+           // 支持
+           console.log("支持设备震动！");
+       }
+     $(".vibr").click(function(){
+         alert("1111");
+         navigator.vibrate([500, 300, 400,300]);
+     });
+   }
 
 	</script>
 <div id="grad1">
@@ -378,7 +413,7 @@ iframe.bilibili{
 			<p class="text">婆曰：懒驴上磨屎尿多！</p>
 			<p class="text">婆曰：跟着啥人xio啥人，跟着死婆子吓贾神！</p>
 			<p class="space">&#8194;</p>
-			<button class="button" style="position:relative;top:15px;left:0;width:200px;" onmousedown="startVibrate()" onmouseup="startVibrate()">专门拿来爽的按钮</button>
+			<button class="vibr">专门拿来爽的按钮</button>
 			<p class="text" style="position:relative;top:200px;font-size:12px ">夜猫blog</p>
 		</div>
 </div>
